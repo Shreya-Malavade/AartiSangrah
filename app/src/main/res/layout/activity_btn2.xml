@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".btn2"
+    android:background="@drawable/aarti_bg1"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first shlok -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gs_heading1"
+            android:text="वक्रतुंड महाकाय"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="16dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Button1"
+            app:layout_constraintBottom_toBottomOf="@+id/Button1"/>
+
+        <ImageView
+            android:id="@+id/Button1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/keyboard_down_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ganesh_shlok1"
+            android:id="@+id/text1"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/gs_heading1"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/cornerview"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <!-- second shlok -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gs_heading2"
+            android:text="प्रारंभी विनंती"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="16dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Button2"
+            app:layout_constraintBottom_toBottomOf="@+id/Button2"/>
+
+        <ImageView
+            android:id="@+id/Button2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/keyboard_down_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ganesh_shlok2"
+            android:id="@+id/text2"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/gs_heading2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/cornerview"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+
+        <!-- third shlok -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gs_heading3"
+            android:text="मोरया मोरया मी बाळ तान्हे"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="16dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Button3"
+            app:layout_constraintBottom_toBottomOf="@+id/Button3"/>
+
+        <ImageView
+            android:id="@+id/Button3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/keyboard_down_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ganesh_shlok3"
+            android:id="@+id/text3"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/gs_heading3"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/cornerview"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <!-- fourth shlok -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gs_heading4"
+            android:text="श्री गणेश करुणाश्लोक"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:padding="16dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Button4"
+            app:layout_constraintBottom_toBottomOf="@+id/Button4"/>
+
+        <ImageView
+            android:id="@+id/Button4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/keyboard_down_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ganesh_shlok4"
+            android:id="@+id/text4"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/gs_heading4"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/cornerview"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

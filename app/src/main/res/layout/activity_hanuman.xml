@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/aarti_bg"
+    tools:context=".hanuman">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hanuman_aarti"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textSize="28dp"
+        android:backgroundTint="#C9EF9C21"
+        android:id="@+id/btn21"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hanuman_shlok"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C9EF9C21"
+        android:textSize="28dp"
+        android:id="@+id/btn22"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hanuman_chalisa"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C9EF9C21"
+        android:textSize="28dp"
+        android:id="@+id/btn23"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hanuman_wallpaper"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C9EF9C21"
+        android:textSize="28dp"
+        android:id="@+id/btn24"/>
+
+</LinearLayout>

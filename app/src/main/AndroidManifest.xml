@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AartiSangrah"
+        tools:targetApi="31">
+        <activity
+            android:name=".btn6"
+            android:exported="false" />
+        <activity
+            android:name=".btn24"
+            android:exported="false" />
+        <activity
+            android:name=".btn23"
+            android:exported="false" />
+        <activity
+            android:name=".btn22"
+            android:exported="false" />
+        <activity
+            android:name=".btn21"
+            android:exported="false" />
+        <activity
+            android:name=".btn20"
+            android:exported="false" />
+        <activity
+            android:name=".btn19"
+            android:exported="false" />
+        <activity
+            android:name=".btn18"
+            android:exported="false" />
+        <activity
+            android:name=".btn17"
+            android:exported="false" />
+        <activity
+            android:name=".btn16"
+            android:exported="false" />
+        <activity
+            android:name=".btn15"
+            android:exported="false" />
+        <activity
+            android:name=".btn14"
+            android:exported="false" />
+        <activity
+            android:name=".btn13"
+            android:exported="false" />
+        <activity
+            android:name=".btn12"
+            android:exported="false" />
+        <activity
+            android:name=".btn11"
+            android:exported="false" />
+        <activity
+            android:name=".btn10"
+            android:exported="false" />
+        <activity
+            android:name=".btn9"
+            android:exported="false" />
+        <activity
+            android:name=".btn8"
+            android:exported="false" />
+        <activity
+            android:name=".btn7"
+            android:exported="false" />
+        <activity
+            android:name=".btn5"
+            android:exported="false" />
+        <activity
+            android:name=".btn4"
+            android:exported="false" />
+        <activity
+            android:name=".btn3"
+            android:exported="false" />
+        <activity
+            android:name=".btn2"
+            android:exported="false" />
+        <activity
+            android:name=".btn1"
+            android:exported="false" />
+        <activity
+            android:name=".ganesh"
+            android:exported="false"
+            android:label="@string/title_activity_ganesh"
+            android:theme="@style/Theme.AartiSangrah" />
+        <activity
+            android:name=".hanuman"
+            android:exported="false"
+            android:label="@string/title_activity_hanuman"
+            android:theme="@style/Theme.AartiSangrah" />
+        <activity
+            android:name=".swami"
+            android:exported="false"
+            android:label="@string/title_activity_swami"
+            android:theme="@style/Theme.AartiSangrah" />
+        <activity
+            android:name=".krishna"
+            android:exported="false"
+            android:label="@string/title_activity_krishna"
+            android:theme="@style/Theme.AartiSangrah" />
+        <activity
+            android:name=".laxmi"
+            android:exported="false" />
+        <activity
+            android:name=".shiv"
+            android:exported="false" />
+        <activity
+            android:name=".d2"
+            android:exported="false" />
+        <activity
+            android:name=".d1"
+            android:exported="false" />
+        <activity
+            android:name=".Ganesh"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
